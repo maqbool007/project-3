@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: #1C1C1C;
+    color: white;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+.head-left,
+.head-center,
+.head-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header i {
+    color: #F1DB25;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section-1 {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 2%;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right ul {
+    display: flex;
+    list-style: none;
+    /* gap: 30px; */
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px11
+}
+
+.nav-right li {
+    padding-top: 4%;
+    padding: 30px 20px 10px;
+    text-align: center;
+
+}
+
+.nav-right li:hover {
+    transition: all.3s;
+    background-color: #1C1C1C;
+}
+
+.nav-right li:first-child {
+    background-color: #1C1C1C;
+}
+
+.nav-left h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.sec-1-text h2 {
+    font-size: 46px;
+}
+
+.sec-1-text h2:nth-child(2) {
+    color: #F1DB25;
+}
+
+.sec-1-text {
+    color: white;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 40%;
+    /* left: 15%; */
+}
+
+.sec-1-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn-1 button {
+    padding: 12px 45px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-1 button:first-child {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+.btn-1 button:last-child {
+    background-color: #F1DB25;
+    border: 1px solid #F1DB25;
+    color: white;
+}
+
+.btn-1 button:hover:first-child {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn-1 button:hover:last-child {
+    background-color: transparent;
+    border: 1px solid #F1DB25;
+    color: #F1DB25;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 12%;
+    right: 17%;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.circle:nth-child(2) {
+    background-color: #F1DB25;
+}
+
+.circle:nth-child(3) {
+    background-color: #F1DB25;
+}
+
+.wrapper {
+    width: 80%;
+    /* min-height: 100%; */
+    margin: auto;
+
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 5%;
+    position: relative;
+    margin-bottom: 5%;
+
+}
+
+.image-1 {
+    width: 50%;
+    height: 350px;
+    /* position: relative; */
+}
+
+.image-1 img {
+    width: 100%;
+    height: 100%;
+    /* filter: blur(1px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(200%); */
+    /* filter: drop-shadow(8px 8px 10px #000); */
+    /* filter: grayscale(100%); */
+    /* filter:hue-rotate(200deg) ; */
+    /* filter: saturate(200%); */
+    /* filter: opacity(20%); */
+}
+
+.section-2-text {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    padding: 4%;
+    top: 10%;
+    left: 42%;
+
+}
+
+.section-2-text p {
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+
+.btn-2 button {
+    padding: 10px 35px;
+    font-size: 16px;
+    background-color: #F1DB25;
+    border: 1px solid #F1DB25;
+    color: white;
+}
+
+.btn-2 button:hover {
+    background-color: transparent;
+    border: 1px solid #F1DB25;
+    color: #F1DB25;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.line-1 {
+    width: 10%;
+    height: 6px;
+    border-radius: 20px;
+    margin-top: -5px;
+    background-color: #F1DB25;
+}
+
+.main-2 {
+    width: 100%;
+    background-color: #1c1c1c;
+    padding: 4%;
+}
+
+.heading h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line-2 {
+    width: 5%;
+    height: 6px;
+    border-radius: 20px;
+    background-color: #F1DB25;
+    margin: auto;
+}
+
+.card {
+    width: 33%;
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.card p {
+    font-size: 17px;
+    margin-bottom: 6%;
+}
+
+.icons {
+    width: 33%;
+    margin: auto;
+
+}
+
+.icons img {
+    width: 100%;
+}
+
+.flex-card {
+    margin-top: 3%;
+    display: flex;
+    gap: 3%;
+}
+
+.main-3 .heading h2 {
+    color: black;
+    padding-top: 4%;
+}
+
+.main-3-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #1C1C1C;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+
+.main-3-arrow:hover {
+    cursor: pointer;
+    transition: all .1s;
+    background-color: #F1DB25;
+}
+
+.main-3-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.main-3-center {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-3-center img {
+    width: 25%;
+}
+
+.main-3-center h3 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.main-4 {
+    background-image: url(./images/contact-bg.jpg);
+    width: 100%;
+    height: 560px;
+    background-size: cover;
+    margin-top: 3%;
+}
+
+.section-3 {
+    width: 100%;
+    height: 560px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-3 .heading h2 {
+    padding-top: 5%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5%;
+
+}
+
+.form input {
+    margin: auto;
+    width: 50%;
+    padding: 13px;
+    outline: none;
+}
+
+.form input:nth-child(4) {
+    height: 120px;
+}
+
+.form input:nth-child(4)::placeholder {
+    font-size: 16px;
+}
+
+.btn-3 {
+    margin: auto;
+}
+
+.btn-3 button {
+    padding: 10px 45px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #F1DB25;
+    border: 1px solid #F1DB25;
+    color: white;
+}
+
+.btn-3 button:hover {
+    background-color: transparent;
+    border: 1px solid #F1DB25;
+    color: #F1DB25;
+    transition: all .3s;
+    cursor: pointer;
+}
+.section-4 .heading h2 {
+    color: black;
+    padding-top: 5%;
+}
+.section-4 .heading p{
+    margin-top: 3%;
+    font-size: 17px;
+    text-align: center;
+}
+.img-card{
+    width: 33%;
+    height: 400px;
+    position: relative;
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    padding: 25px 25px;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(28, 28, 28, 0.75);
+}
+.section-4-flex{
+    margin-top: 4%;
+    display: flex;
+    gap: 20px;
+}
+.btn-4{
+    margin-top: 3%;
+   text-align: center;
+}
+.btn-4 button {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #F1DB25;
+    border: 1px solid #F1DB25;
+    color: white;
+}
+
+.btn-4 button:hover {
+    background-color: transparent;
+    border: 1px solid #F1DB25;
+    color: #F1DB25;
+    transition: all .3s;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 5%;
+    background-color: #101010;
+    color: white;
+    padding: 4%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-flex{
+    display: flex;
+    gap: 2%;
+    /* padding: 5%; */
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 10px;
+
+}
+.info{
+    width: 23%;
+}
+.info h2{
+    margin-bottom: 9%;
+}
+.info p{
+    line-height: 1.4;
+}
+.info input{
+    padding: 4% 10%;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+.btn-5 button{
+    padding: 5% 15%;
+    border-radius: 120px;
+    border: none;
+    background-color: #F1DB25;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+.copyright{
+    color: rgb(185, 185, 185);
+    text-align: center;
+    margin-top: 5%;
+}
